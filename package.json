@@ -1,0 +1,22 @@
+{
+  "name": "epubee-download",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "download":"node ./src/download.js"
+  },
+  "keywords": [],
+  "author": "sleepyfive",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.2.0",
+    "axios": "^0.21.1",
+    "dom-parser": "^0.1.6",
+    "ebang-server-common": "^1.0.18"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^14.14.20"
+  }
+}
